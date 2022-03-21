@@ -161,4 +161,4 @@ function valorCantoTruco (canto) {
     }
 }
 
-asd
+/////////////////////////// 2.2.13
