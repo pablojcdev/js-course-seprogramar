@@ -114,10 +114,10 @@ function escribirCartelito (titulo, nombre, apellido, corto) {
 
 // Si vos pusieras solamente if (b), como "b" va a corresponderse con el valor de un booleano, si este fuese "True" ingresarías al if porque la condición sería "verdadera"
 
-/////////////////////////// 2.2.9 ERRADO - ERRADO - ERRADO - ERRADO - ERRADO - ERRADO - ERRADO - ERRADO - ERRADO
+/////////////////////////// 2.2.9 
 
-function escribirCartelitoOptimo (titulo, nombre, apellido) {
-    return (longitud(nombre + apellido > 15) && escribirCartelito(titulo, nombre, apellido, true))
+function escribirCartelitoOptimo(titulo, nombre, apellido) {
+    return escribirCartelito(titulo, nombre, apellido, longitud(nombre+apellido) > 15)
 }
 
 /////////////////////////// 2.2.10 
